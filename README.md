@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Both semantic and non-semantic serve their purpose, but since one of the main objectives as a programmer is to help browsers and other programmers understand our code easily, semantic HTML is considered best practice because it makes our pages much more specific and customizable. Semantic HTML uses different tags like <article> and <address> to denote corresponding content on the web page. This specificity helps browsers find exactly what is included in our page which results in faster search results for users and happy SEOs!
+    source: https://www.w3schools.com/html/html5_semantic_elements.asp
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    Firstly, the display property determines how (or if) the boxes that make up a web page will be visible. As it says on the W3 page, every HTML element has a default display value of either block or inline . Block elements take up the full width by default, each item automatically gets its own line, and can have their height and width adjusted as needed. Inline only takes as much space in a row as it needs, many items can be on the same line, and margins/paddings are not respected. 
+    source: https://www.w3schools.com/css/css_inline-block.asp
 
 3. What are the 4 areas of the box model?
+    The fours areas of the box model are: content, padding, border, and margin.
+    source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Align-items is used to align items along the cross axis, which is vertical by default. This means that any items aligned "center" in this example would move either up or down until they are oriented in the center of the box. 
+    source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#Properties_that_control_alignment
 
 5. Explain why git is valuable to a team of developers.
+    Git allows many people all over the world to access and work on the same content without worrying about harming/losing the source code that started it all. Code repositories are databases that hold onto all of the code from the original to the current version and all of the changes in between. This allows for adjustment and revision as needed. Git is extremely reliable, secure, and flexible and once you get the hang of the commands, it's fairly simple to use making it a great resource for teams everywhere. 
+    source: https://www.quickscrum.com/Article/ArticleDetails/5181/1/What-is-Git-What-benefits-does-Git-offer
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

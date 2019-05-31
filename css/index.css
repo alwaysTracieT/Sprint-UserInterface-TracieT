@@ -67,10 +67,40 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
+/* Start header*/
+nav {
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+/* End header*/
+
+.first-img {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/* Start about us portion*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +108,8 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/* End about us portion*/
+/* text container for index.html only*/
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -89,7 +120,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/* index.html styling*/
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,17 +132,8 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
+/* index.html and about.html styling*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +166,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* about.html styling*/
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box.box1 {
+    background-color: teal;
+}
+.box.box2 {
+    background-color: gold;
+}
+.box.box3 {
+    background-color: cadetblue;
+}
+.box.box4 {
+    background-color: coral;
+}
+.box.box5 {
+    background-color: crimson;
+}
+.box.box6 {
+    background-color: forestgreen;
+}
+.box.box7 {
+    background-color: darkorchid;
+}
+.box.box8 {
+    background-color: hotpink;
+}
+.box.box9 {
+    background-color: indigo;
+}
+.box.box10 {
+    background-color: dodgerblue;
+}
+
+.about-section {
+    margin: 20px;
+    width: 100%;
+}
+.about-section h2 {
+    font-size: 22px;
+}
+
+.worktogether-section {
+    margin: 10px;
+    width: 100%;
+
+}
+.worktogether-section h2 {
+    font-size: 22px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.about-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.design-box {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 10px 0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    width: 35%;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+  }
+
+.design-box h1 {
+    margin-top: 10px;
+}
+/* end about.html styling*/
+
+/* contact.html syling */
+.contact-section {
+    margin: 20px;
+    width: 100%;
+}
+.contact-section h2 {
+    font-size: 22px;
+}
+
+
+
+
+
