@@ -70,7 +70,7 @@ p {
     width: 1000px;
     margin: 0 auto;
 }
-
+/* Start header*/
 nav {
     margin: 20px;
     margin-top: 20px;
@@ -93,13 +93,14 @@ nav a {
     align-items: flex-start;
     padding: 10px;
 }
+/* End header*/
 
 .first-img {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
 }
-
+/* Start about us portion*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +108,8 @@ nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/* End about us portion*/
+/* text container for index.html only*/
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -118,7 +120,7 @@ nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/* index.html styling*/
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -131,6 +133,7 @@ nav a {
 }
 
 
+/* index.html and about.html styling*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -163,7 +166,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+/* about.html styling*/
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -226,9 +229,16 @@ footer nav a {
 .design-box h1 {
     margin-top: 10px;
 }
+/* end about.html styling*/
 
-
-
+/* contact.html syling */
+.contact-section {
+    margin: 20px;
+    width: 100%;
+}
+.contact-section h2 {
+    font-size: 22px;
+}
 
 
 
